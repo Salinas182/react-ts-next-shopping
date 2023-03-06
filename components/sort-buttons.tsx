@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from "@mui/material";
 import { sortByHighestPrice, sortByLowestPrice } from '../utils/sort-articles';
 
@@ -10,14 +11,14 @@ export default function SortButtons({ articles, setArticles }: any) {
         sx={buttonsStyle}
         onClick={() => setArticles(sortByLowestPrice(articles))}
       >
-        Más baratos primero
+        Precio más bajo primero
       </Button>
       <Button
         variant="outlined"
         sx={buttonsStyle}
         onClick={() => setArticles(sortByHighestPrice(articles))}
       >
-        Más caros primero
+        Precio más alto primero
       </Button>
     </>
   )

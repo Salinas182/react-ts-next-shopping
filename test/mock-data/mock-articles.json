@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Polo con cuello mao de algodón para chico",
+      "price": "25,99",
+      "newPrice": "20,80",
+      "discount": "20%",
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221031132727/23-06103-037-XL-4/polo-con-cuello-mao-de-algodon-para-chico_id_23-06103-037-M-4.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Polo con estampado de algodón para chico",
+      "price": "23,99",
+      "newPrice": "23,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221019080506/23-06105-046-XL-4/polo-con-estampado-de-algodon-para-chico_id_23-06105-046-M-4.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Polo de manga corta en algodón sostenible para chico",
+      "price": "13,99",
+      "newPrice": "12,60",
+      "discount": "10%",
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221214115309/23-00890-082-XL-4/polo-de-manga-corta-en-algodon-sostenible-para-chico_id_23-00890-082-M-4.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Polo de algodón para chico",
+      "price": "25,99",
+      "newPrice": "25,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221115123724/23-06102-031-XL-4/polo-de-algodon-para-chico_id_23-06102-031-M-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Polo de algodón para chico",
+      "price": "25,99",
+      "newPrice": "23,40",
+      "discount": "10%",
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221031132810/23-06102-032-XL-4/polo-de-algodon-para-chico_id_23-06102-032-M-4.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Polo con motivo estampado de algodón sostenible",
+      "price": "23,99",
+      "newPrice": "23,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20221202125101/23-06108-059-XL-4/polo-con-motivo-estampado-de-algodon-sostenible-para-chico_id_23-06108-059-M-4.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Polo granito mangas combinadas chico",
+      "price": "24,99",
+      "newPrice": "24,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20230126105631/23-56126-700-XL-4/polo-granito-mangas-combinadas-chico_id_23-56126-700-M-4.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Polo manga corta granito bandas chico",
+      "price": "24,99",
+      "newPrice": "24,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20230126105627/23-56120-700-XL-4/polo-manga-corta-granito-bandas-chico_id_23-56120-700-M-4.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Polo mini estampado chico",
+      "price": "23,99",
+      "newPrice": "23,99",
+      "discount": null,
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20230126105634/23-56143-700-XL-4/polo-mini-estampado-chico_id_23-56143-700-M-4.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Polo granito cuello mao chico",
+      "price": "14,99",
+      "newPrice": "13,50",
+      "discount": "10%",
+      "url": "https://assets.mayoral.com/images/t_auto_img/h_896/v20230126105644/23-56141-700-XL-4/polo-granito-cuello-mao-chico_id_23-56141-700-M-4.jpg"
+    }
+  ]
+}
