@@ -1,7 +1,9 @@
 import * as React from 'react';
+import Link from 'next/link';
 import { Button } from '@mui/material';
+import { Article } from '../interfaces';
 
-export default function ArticleCard({ article }: any) {
+export default function ArticleCard({ article }: {article: Article}) {
   return (
     <div className="flex flex-col flex-1 group relative border-solid border-2 border-sky-100">
       <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
@@ -10,10 +12,10 @@ export default function ArticleCard({ article }: any) {
       <div className="mt-4 text-center">
         <div className="mb-2">
           <h3 className="text-sm text-gray-700">
-            <a href="#">
+            <Link href={`/articles/${article.id}`}>
               <span aria-hidden="true" className="absolute inset-0"></span>
               {article.name}
-            </a>
+            </Link>
           </h3>
         </div>
         {article.discount ? (

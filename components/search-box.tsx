@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
+import { Article } from '../interfaces';
 
-export default function SearchBox({ setArticleToSearch, articles }: any) {
+export default function SearchBox({ setArticleToSearch, articles }: {setArticleToSearch: any, articles: Article[]}) {
   const [userInput, setUserInput] = useState<string>();
   const searchArticle = () => {
     if (!userInput) {
@@ -9,7 +10,7 @@ export default function SearchBox({ setArticleToSearch, articles }: any) {
       return;
     }
 
-    const articlesFound = articles?.filter((article: object) => article.name.includes(userInput));
+    const articlesFound = articles?.filter((article: Article) => article.name.includes(userInput));
     setArticleToSearch(articlesFound || null);
   }
 

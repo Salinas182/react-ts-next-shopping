@@ -1,13 +1,14 @@
 import React from 'react';
 import { useState, useEffect } from "react";
+import { Article } from '../interfaces';
 import ArticleCard from "./article-card";
 import ChangeViewButtons from "./change-view-buttons";
 import SearchBox from "./search-box";
 import SortButtons from "./sort-buttons";
 
-export default function ArticlesList({ allArticles }: any) {
-  const [articles, setArticles] = useState<[]>(allArticles);
-  const [articleToSearch, setArticleToSearch] = useState<[]>([]);
+export default function ArticlesList({ allArticlesData }: {allArticlesData: Article[]}) {
+  const [articles, setArticles] = useState<Article[]>(allArticlesData);
+  const [articleToSearch, setArticleToSearch] = useState<[]|Article[]>([]);
   const [showLessItems, setShowLessItems] = useState<boolean>(false);
   const [gridClass, setGridClass] = useState<string>(`mt-6 grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-3 lg:grid-cols-4 xl:gap-x-8`);
 
@@ -33,14 +34,14 @@ export default function ArticlesList({ allArticles }: any) {
         <div className={gridClass}>
           {articleToSearch?.length ?
             (
-              articleToSearch?.map((article: any, index: number) => {
+              articleToSearch?.map((article: Article, index: number) => {
                 return (
                   <ArticleCard article={article} key={`article-${index}`}/>
                 )
               })
             ) :
             (
-              articles?.map((article:any, index: number) => {
+              articles?.map((article: Article, index: number) => {
                 return (
                   <ArticleCard article={article} key={`article-${index}`} />
                 )

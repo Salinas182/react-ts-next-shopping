@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button } from "@mui/material";
 import { sortByHighestPrice, sortByLowestPrice } from '../utils/sort-articles';
+import { Article } from '../interfaces';
 
-export default function SortButtons({ articles, setArticles }: any) {
+export default function SortButtons({ articles, setArticles }: { articles: Article[], setArticles: any}) {
   const buttonsStyle = { margin: '3px' };
   return (
     <>

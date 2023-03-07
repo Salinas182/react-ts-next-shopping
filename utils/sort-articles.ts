@@ -1,4 +1,6 @@
-export const sortByHighestPrice = (articles: object[]): object[] => {
+import { Article } from "../interfaces";
+
+export const sortByHighestPrice = (articles: Article[]): Article[] => {
   let sortedArray = [...articles];
 
   return sortedArray?.sort((article1, article2) => {
@@ -12,7 +14,7 @@ export const sortByHighestPrice = (articles: object[]): object[] => {
   });
 }
 
-export const sortByLowestPrice = (articles: object[]): object[] => {
+export const sortByLowestPrice = (articles: Article[]): Article[] => {
   let sortedArray = [...articles];
 
   return sortedArray?.sort((article1, article2) => {

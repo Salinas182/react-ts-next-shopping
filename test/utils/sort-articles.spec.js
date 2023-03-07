@@ -18,7 +18,6 @@ describe('sort-articles', () => {
     it('receives an array of articles and sorts them by price, in ascending order', () => {
       const expectedOrder = articlesPrices.sort();
       const result = sortByLowestPrice(mockArticles.data);
-      console.log({ expectedOrder, result });
       result.forEach((article, idx) => {
         expect(article.newPrice).toBe(expectedOrder[idx]);
       })
